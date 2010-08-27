@@ -1,0 +1,21 @@
+.group
+  =f.label :title
+  =f.error_message_on :title
+  =f.text_field :title, :class => :text_field
+  %span.description the title of the post
+
+.group
+  =f.label :author
+  =f.error_message_on :author
+  ~f.text_field :author, :class => :text_area, :class => :text_field
+  %span.description the author of the post
+
+.group
+  =f.label :body
+  =f.error_message_on :body
+  ~f.text_area :body, :class => :text_area, :class => "text_area code", :style => "height:400px"
+  %span.description the body of the post
+
+.group.navform.wat-cf
+  =f.submit :save, :class => :button
+  =f.submit :cancel, :onclick => "window.location='#{url(:post, :index)}';return false", :class => :button

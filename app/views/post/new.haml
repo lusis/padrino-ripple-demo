@@ -1,0 +1,7 @@
+.block
+  .content
+    %h2.title
+      New Post
+    .inner
+      -form_for :post, url(:post, :create), :class => :form do |f|
+        =partial "post/form", :locals => { :f => f }

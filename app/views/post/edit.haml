@@ -1,0 +1,8 @@
+.block
+  .content
+    %h2.title
+      Edit Post
+      =(@post.key)
+    .inner
+      -form_for :post, url(:post, :update, :id => @post.key), :method => :put, :class => :form do |f|
+        =partial "post/form", :locals => { :f => f }

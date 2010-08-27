@@ -1,0 +1,21 @@
+.block
+  .content
+    %h2.title
+    .inner
+      %table.table
+        %tr
+          %th.first Title
+          %th Author
+          %th Created At
+          %th.last="&nbsp;"
+        -@posts.each do |post|
+          %tr
+            %td.first=post.title
+            %td=post.author
+            %td=l(post.updated_at, :format => :long)
+            %td.last
+              =button_to :edit, url(:post, :edit, :id => post.key), :method => :get, :class => :button_to 
+              ="|"
+              =button_to :delete, url(:post, :destroy, :id => post.key), :method => :delete, :class => :button_to
+      .actions-bar.wat-cf
+        .actions="&nbsp;"

@@ -1,0 +1,7 @@
+--- 
+:orm: ripple
+:test: none
+:mock: none
+:script: jquery
+:renderer: haml
+:stylesheet: sass
