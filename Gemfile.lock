@@ -1,26 +1,8 @@
-GEM
-  remote: http://rubygems.org/
+GIT
+  remote: git://github.com/lusis/padrino-framework.git
+  revision: 781db0e
+  branch: ripple_support
   specs:
-    activemodel (3.0.0.rc2)
-      activesupport (= 3.0.0.rc2)
-      builder (~> 2.1.2)
-      i18n (~> 0.4.1)
-    activesupport (3.0.0.rc2)
-    builder (2.1.2)
-    curb (0.7.8)
-    daemons (1.1.0)
-    eventmachine (0.12.10)
-    git (1.2.5)
-    haml (3.0.17)
-    http_router (0.3.13)
-      rack (>= 1.0)
-      url_mount (>= 0.2.1)
-    i18n (0.4.1)
-    mail (2.2.5)
-      activesupport (>= 2.3.6)
-      mime-types
-      treetop (>= 1.4.5)
-    mime-types (1.16)
     padrino (0.9.14)
       padrino-admin (= 0.9.14)
       padrino-core (= 0.9.14)
@@ -46,6 +28,30 @@ GEM
     padrino-mailer (0.9.14)
       mail (>= 2.2.0)
       padrino-core (= 0.9.14)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.0.0.rc2)
+      activesupport (= 3.0.0.rc2)
+      builder (~> 2.1.2)
+      i18n (~> 0.4.1)
+    activesupport (3.0.0.rc2)
+    builder (2.1.2)
+    curb (0.7.8)
+    daemons (1.1.0)
+    eventmachine (0.12.10)
+    git (1.2.5)
+    haml (3.0.17)
+    http_router (0.3.13)
+      rack (>= 1.0)
+      url_mount (>= 0.2.1)
+    i18n (0.4.1)
+    mail (2.2.5)
+      activesupport (>= 2.3.6)
+      mime-types
+      treetop (>= 1.4.5)
+    mime-types (1.16)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-flash (0.1.1)
@@ -79,7 +85,7 @@ DEPENDENCIES
   activesupport (>= 3.0.0.rc2)
   curb
   haml
-  padrino (= 0.9.14)
+  padrino!
   rack-flash
   rake
   riak-client (>= 0.8.0beta)
