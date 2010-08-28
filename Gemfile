@@ -18,4 +18,4 @@ gem 'curb'
 
 
 # Padrino
-gem 'padrino', :git => 'git://github.com/lusis/padrino-framework.git', :branch => 'ripple_support'
+gem 'padrino', :git => 'git://github.com/lusis/padrino-framework.git', :branch => 'ripple'

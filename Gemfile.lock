@@ -1,33 +1,33 @@
 GIT
   remote: git://github.com/lusis/padrino-framework.git
-  revision: 781db0e
-  branch: ripple_support
+  revision: baa6541
+  branch: ripple
   specs:
-    padrino (0.9.14)
-      padrino-admin (= 0.9.14)
-      padrino-core (= 0.9.14)
-      padrino-gen (= 0.9.14)
-      padrino-helpers (= 0.9.14)
-      padrino-mailer (= 0.9.14)
-    padrino-admin (0.9.14)
-      padrino-core (= 0.9.14)
-      padrino-gen (= 0.9.14)
-      padrino-helpers (= 0.9.14)
-    padrino-core (0.9.14)
+    padrino (0.9.15)
+      padrino-admin (= 0.9.15)
+      padrino-core (= 0.9.15)
+      padrino-gen (= 0.9.15)
+      padrino-helpers (= 0.9.15)
+      padrino-mailer (= 0.9.15)
+    padrino-admin (0.9.15)
+      padrino-core (= 0.9.15)
+      padrino-gen (= 0.9.15)
+      padrino-helpers (= 0.9.15)
+    padrino-core (0.9.15)
       activesupport (>= 2.3.8)
       http_router (>= 0.3.13)
       sinatra (>= 1.0.0)
       thor (>= 0.13.0)
-    padrino-gen (0.9.14)
+    padrino-gen (0.9.15)
       bundler (>= 1.0.0.rc.2)
       git
-      padrino-core (= 0.9.14)
-    padrino-helpers (0.9.14)
+      padrino-core (= 0.9.15)
+    padrino-helpers (0.9.15)
       i18n (>= 0.4.1)
-      padrino-core (= 0.9.14)
-    padrino-mailer (0.9.14)
+      padrino-core (= 0.9.15)
+    padrino-mailer (0.9.15)
       mail (>= 2.2.0)
-      padrino-core (= 0.9.14)
+      padrino-core (= 0.9.15)
 
 GEM
   remote: http://rubygems.org/
