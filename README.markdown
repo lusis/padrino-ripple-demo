@@ -24,4 +24,8 @@ Missing Functionality
  - No exceptions thrown
   Exceptions don't appear to be working properly. I'm working on it
 
+TODO
+----
+ - Get exceptions working
+ - Create a second model and demonstrate relationships between models
 Hopefully you can see from the _app/controllers/post.rb_ how to convert Ripple conventions into Padrino conventions. That's the real goal and usually the hardest part of using any new framework.
